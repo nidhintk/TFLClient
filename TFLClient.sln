@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFLClient", "TFLClient\TFLClient.csproj", "{E78C53B1-6633-44AD-AFD1-F9B79A42FE05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFLClient.Specflow.Test", "TFLClient.Test\TFLClient.Specflow.Test.csproj", "{0C22A888-2C5B-46F6-B012-1367A2B6FFD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFLClient.Handlers", "TFLClient.Processor\TFLClient.Handlers.csproj", "{5BCDDDAE-C479-4C08-8D59-1B10EA38D50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFLClient.Handlers.Interface", "TFLClient.Processor.Interface\TFLClient.Handlers.Interface.csproj", "{D5A76BB3-143A-4AC8-B857-F4C8A4077846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFLClient.RequestEngine", "TFLClient.RequestEngine\TFLClient.RequestEngine.csproj", "{41BC9900-0B2E-410F-BDAC-34DE4201CF2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFLClient.Exceptions", "TFLClient.Exceptions\TFLClient.Exceptions.csproj", "{73FBCC8A-12B1-40DA-81CD-A1C3B64E4E3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFLClient.Common", "TFLClient.Enums\TFLClient.Common.csproj", "{F878892E-70FF-44EC-A9C7-37BF9EAFA2D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFLClient.Exceptions.Interface", "TFLClient.Exceptions.Interface\TFLClient.Exceptions.Interface.csproj", "{8A90AD52-C455-42EC-A54C-13C9A5699C35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFLClient.Handlers.Factory", "TFLClient.Handlers.Factory\TFLClient.Handlers.Factory.csproj", "{47F8B930-23EC-41C0-AF43-BB570D5A34BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFLClient.ResourceManager", "TFLClient.ResourceManager\TFLClient.ResourceManager.csproj", "{ABDC364B-CB7B-42C4-A0E4-811F67CD3AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFLClient.RequestProcessor", "TFLClient.RequestProcessor\TFLClient.RequestProcessor.csproj", "{B0DF2162-7E4A-4AC2-874D-7A6D6663C52A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E78C53B1-6633-44AD-AFD1-F9B79A42FE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78C53B1-6633-44AD-AFD1-F9B79A42FE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78C53B1-6633-44AD-AFD1-F9B79A42FE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78C53B1-6633-44AD-AFD1-F9B79A42FE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C22A888-2C5B-46F6-B012-1367A2B6FFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C22A888-2C5B-46F6-B012-1367A2B6FFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C22A888-2C5B-46F6-B012-1367A2B6FFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C22A888-2C5B-46F6-B012-1367A2B6FFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCDDDAE-C479-4C08-8D59-1B10EA38D50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCDDDAE-C479-4C08-8D59-1B10EA38D50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCDDDAE-C479-4C08-8D59-1B10EA38D50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCDDDAE-C479-4C08-8D59-1B10EA38D50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A76BB3-143A-4AC8-B857-F4C8A4077846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A76BB3-143A-4AC8-B857-F4C8A4077846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A76BB3-143A-4AC8-B857-F4C8A4077846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A76BB3-143A-4AC8-B857-F4C8A4077846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BC9900-0B2E-410F-BDAC-34DE4201CF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BC9900-0B2E-410F-BDAC-34DE4201CF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BC9900-0B2E-410F-BDAC-34DE4201CF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BC9900-0B2E-410F-BDAC-34DE4201CF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FBCC8A-12B1-40DA-81CD-A1C3B64E4E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FBCC8A-12B1-40DA-81CD-A1C3B64E4E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FBCC8A-12B1-40DA-81CD-A1C3B64E4E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FBCC8A-12B1-40DA-81CD-A1C3B64E4E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F878892E-70FF-44EC-A9C7-37BF9EAFA2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F878892E-70FF-44EC-A9C7-37BF9EAFA2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F878892E-70FF-44EC-A9C7-37BF9EAFA2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F878892E-70FF-44EC-A9C7-37BF9EAFA2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A90AD52-C455-42EC-A54C-13C9A5699C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A90AD52-C455-42EC-A54C-13C9A5699C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A90AD52-C455-42EC-A54C-13C9A5699C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A90AD52-C455-42EC-A54C-13C9A5699C35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F8B930-23EC-41C0-AF43-BB570D5A34BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F8B930-23EC-41C0-AF43-BB570D5A34BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F8B930-23EC-41C0-AF43-BB570D5A34BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F8B930-23EC-41C0-AF43-BB570D5A34BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDC364B-CB7B-42C4-A0E4-811F67CD3AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDC364B-CB7B-42C4-A0E4-811F67CD3AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDC364B-CB7B-42C4-A0E4-811F67CD3AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDC364B-CB7B-42C4-A0E4-811F67CD3AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DF2162-7E4A-4AC2-874D-7A6D6663C52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DF2162-7E4A-4AC2-874D-7A6D6663C52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DF2162-7E4A-4AC2-874D-7A6D6663C52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DF2162-7E4A-4AC2-874D-7A6D6663C52A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
