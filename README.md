@@ -46,12 +46,12 @@ Load the solution and then open the 'Test Explorer' from the 'Test' menu.
 You have the option to either run all at a time or one at a time selecting a test.
 
 The TFLClientSpecFlow.feature file explains all the scenarios covered with the tests in the Gherkin language. It's a business readable,
-domain specific language that lets you describe software behaviour without detailing with how that behaviour is implemented.
+domain specific language that lets you describe software behaviour without detailing how that behaviour is implemented.
 
-Eg: Feature: Invoke a TFL API
-	In order to invoke a TFL API
-	As a user who wants to know transport information
-	I want to be told the transport information
+	Eg: Feature: Invoke a TFL API
+		In order to invoke a TFL API
+		As a user who wants to know transport information
+		I want to be told the transport information
 
 	Scenario: Invoke without passing any parameters
 		Given The user doesnot pass in any parameters
